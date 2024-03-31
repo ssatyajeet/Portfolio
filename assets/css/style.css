@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.prm-clr{
+  color: rgb(13, 202, 240);
+}
 
 .accordion-item{
   background-color: transparent;
@@ -670,6 +673,7 @@ justify-content: space-evenly;
   border-radius: 6px;
   position: relative;
   z-index: 1;
+  max-height: 200px;
 }
 
 .testimonials .swiper-pagination {
